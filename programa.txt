@@ -1,0 +1,11 @@
+function void main(){
+  float promedio;
+  integer suma = 0;
+  integer dato;
+  for(integer i = 0; i < 10 ; i ++){
+    dato = escribir();
+    suma = suma + dato;
+  };
+  promedio = suma / 10;
+  print promedio;
+};

@@ -1,0 +1,144 @@
+
+chain x12 = 'hola coca cola';
+
+print('hola');
+
+print('hola mundo x2 jeje jeje jeje jeje');
+
+print x12;
+
+integer x1 = 3;
+
+x1 = x1 + 3;
+
+if(x1 == 2){
+	if(x2 == 2){
+		print('Es menor');
+		x2 = 1;
+		print x2;
+	};
+};
+
+if(x1 == 2){
+	print('Es menor');
+	x2 = 1;
+	print x2;
+}else{
+	print('Es mayor');
+};
+
+if(x1 > 4){
+	print('Es mayor');
+}else if(x1 > 5){
+	print('jeje 1');
+}else{
+	print('jaja');
+};
+
+while(x2 > 4){
+	x1++;
+};
+
+while(x1 < 4){
+	while(x2 > 4){
+		x1++;
+		x2--;
+	};
+	x2 = 8;
+};
+
+do{
+	do{
+		integer x;
+		character y;
+		y = 's';
+		x ++;
+	}while(x2 > 4);
+}while(x2 > 4);
+
+
+do{
+	print('hola coca cola jeje 1');
+	x2 ++;
+}while(x2 < 4);
+
+for(i = 0; i < 20; i++){
+	for(j = 0; j < 20; j++){
+		print('hola cola loca');
+	};
+};
+
+switch(x){
+	case 1:
+		print('si');
+		break;
+	case 2:
+		print('no');
+		break;
+	default:
+		print('tal vez');
+		break;
+};
+
+
+switch(x){
+	case 1:
+		print('si');
+};
+
+switch(x){
+	case 1:
+		print('si');
+		break;
+	case 2:
+		print('no');
+		break;
+	default:
+		print('tal vez');
+};
+
+switch(x){
+	case 1:
+		print('si');
+		break;
+	case 2:
+		print('no');
+		break;
+};
+
+
+switch(x){
+	case 1:
+		print('si');
+	case 2:
+		print('no');
+};
+
+
+function void f(integer hola){
+	print('hola jeje 1');
+	print('jeje como soy loco');
+};
+
+function integer fun(character x){
+	integer x1 = 0;
+	if(x1 == 0){
+		x1 ++;
+	}else{
+		x1 --;
+	};
+	return x1;
+};
+
+
+integer i;
+for(i = 0; i < 10; i++){
+	for(integer j = 0; j < 20; j++){
+		if(j > 10 ){
+			print('verdadero');
+		}else{
+			print('flaso');
+		}
+	};
+};
+
